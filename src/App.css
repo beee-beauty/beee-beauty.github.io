@@ -1,0 +1,28 @@
+
+@font-face {
+  font-family: Urbanist;
+  src: url(/public/Urbanist/Urbanist-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: Gotu;
+  src: url(/public/Gotu/Gotu-Regular.ttf);
+}
+
+
+body {
+  max-width: 2000px;
+  align-items: center;
+  margin:auto;
+  min-width: 320px;
+  background-color: #Feedd9 ;
+}
+
+.App {
+  text-align: center;
+}
+
+*{
+  margin: 0;
+}
+
