@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/react-frontEnd/static/css/main.f046cd9d.css",
-    "main.js": "/react-frontEnd/static/js/main.ded64f28.js",
-    "static/js/787.dc8eee02.chunk.js": "/react-frontEnd/static/js/787.dc8eee02.chunk.js",
-    "static/media/Gotu-Regular.ttf": "/react-frontEnd/static/media/Gotu-Regular.90551c23e142c45aa552.ttf",
-    "static/media/Urbanist-VariableFont_wght.ttf": "/react-frontEnd/static/media/Urbanist-VariableFont_wght.96da0221578c1868bd1e.ttf",
-    "index.html": "/react-frontEnd/index.html",
-    "main.f046cd9d.css.map": "/react-frontEnd/static/css/main.f046cd9d.css.map",
-    "main.ded64f28.js.map": "/react-frontEnd/static/js/main.ded64f28.js.map",
-    "787.dc8eee02.chunk.js.map": "/react-frontEnd/static/js/787.dc8eee02.chunk.js.map"
+    "main.css": "/static/css/main.c7a5744a.css",
+    "main.js": "/static/js/main.024f82b0.js",
+    "static/js/787.dc8eee02.chunk.js": "/static/js/787.dc8eee02.chunk.js",
+    "static/media/Gotu-Regular.ttf": "/static/media/Gotu-Regular.90551c23e142c45aa552.ttf",
+    "static/media/Urbanist-VariableFont_wght.ttf": "/static/media/Urbanist-VariableFont_wght.96da0221578c1868bd1e.ttf",
+    "index.html": "/index.html",
+    "main.c7a5744a.css.map": "/static/css/main.c7a5744a.css.map",
+    "main.024f82b0.js.map": "/static/js/main.024f82b0.js.map",
+    "787.dc8eee02.chunk.js.map": "/static/js/787.dc8eee02.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f046cd9d.css",
-    "static/js/main.ded64f28.js"
+    "static/css/main.c7a5744a.css",
+    "static/js/main.024f82b0.js"
   ]
 }
