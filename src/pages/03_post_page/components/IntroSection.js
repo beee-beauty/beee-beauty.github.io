@@ -4,6 +4,21 @@ import React from 'react'
 function IntroSection({articleDetails}) {
     const date = articleDetails?.createdAt?.substring(0, 10)
     const authorDetails = articleDetails?.author?.data?.attributes
+    const authorSection = () =>{
+      if(!authorDetails){
+        return <></>
+      }
+      return (
+        <Typography
+          variant="subTitle"
+          color="secondary"
+          sx={{
+            my: 1,
+          }}>
+          By: {authorDetails.name}
+        </Typography>
+      )
+    }
     return (
       <>
         <Typography
@@ -14,14 +29,7 @@ function IntroSection({articleDetails}) {
           }}>
           {articleDetails.title}
         </Typography>
-        <Typography
-          variant="subTitle"
-          color="secondary"
-          sx={{
-            my: 1,
-          }}>
-          By: {authorDetails.name}
-        </Typography>
+        {authorSection()}
         <Typography
           variant="h4"
           color="secondary"

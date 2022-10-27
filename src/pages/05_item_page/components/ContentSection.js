@@ -12,7 +12,6 @@ function ContentSection({ item }) {
             return <></>
         }
         const url = getStrapiMedia(imageDetails)
-        console.log(imageDetails)
         return (
             <Box
                 component="img"

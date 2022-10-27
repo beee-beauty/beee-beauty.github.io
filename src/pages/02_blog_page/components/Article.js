@@ -15,8 +15,9 @@ import { getStrapiMedia } from "../../../ultis/api";
 
 
 const Article = ({ data }) => {
-  const { description, image, title, like, createdAt } = data.attributes
-  const url = getStrapiMedia(image)
+  const { description, image, title, like, createdAt } = data?.attributes
+  console.log(data?.attributes)
+  const url = getStrapiMedia(image) || "https://www.eurovps.com/blog/wp-content/uploads/2012/10/placeholder-images.jpg"
   const date = createdAt.substring(0, 10)
   // const shortDescription = description.length > 50 ? `${description.substring(0,60)}...`:description
   const likeNumber = () => {
